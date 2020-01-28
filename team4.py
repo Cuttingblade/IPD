@@ -7,10 +7,16 @@
 ####
 
 team_name = 'Team #4' # Only 10 chars displayed.
-strategy_name = 'Win'
-strategy_description = 'We make the correct choices.'
+strategy_name = 'Cpycat'
+strategy_description = 'We take the opponents last move and play it.'
     
 def move(my_history, their_history, my_score, their_score):
+    if their_history = 0:
+        return 'c'
+    else their_history[-1] = 'b':
+        return 'b'
+    else:
+        return 'c'
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
     
