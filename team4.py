@@ -11,9 +11,9 @@ strategy_name = 'Cpycat'
 strategy_description = 'We take the opponents last move and play it.'
     
 def move(my_history, their_history, my_score, their_score):
-    if their_history = 0:
+    if their_history == 0:
         return 'c'
-    else their_history[-1] = 'b':
+    elif their_history[-1] == 'b':
         return 'b'
     else:
         return 'c'
